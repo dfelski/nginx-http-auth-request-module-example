@@ -1,0 +1,1 @@
+# nginx-http-auth-request-module-example
