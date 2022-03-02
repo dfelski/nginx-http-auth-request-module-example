@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  auth-backend:
+    build:
+      context: auth-backend
+
+  app:
+    build:
+      context: app
+    ports:
+      - 8010:8010
